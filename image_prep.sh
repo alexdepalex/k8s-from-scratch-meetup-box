@@ -4,10 +4,7 @@ docker pull gcr.io/google_containers/hyperkube:v1.4.0
 docker pull gcr.io/google_containers/pause-amd64:3.0
 docker pull weaveworks/weave-kube:1.7.2
 docker pull weaveworks/weave-npc:1.7.2
-
-docker pull weaveworks/plugin:1.7.0
-docker pull weaveworks/weaveexec:1.7.0
-docker pull weaveworks/weave:1.7.0
+docker pull weaveworks/weaveexec:1.7.2
 docker pull weaveworks/weavedb
 
 sudo mkdir -p /opt/bin
